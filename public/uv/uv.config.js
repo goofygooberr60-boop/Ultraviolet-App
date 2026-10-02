@@ -1,6 +1,6 @@
-elf.__uv$config = {
+self.__uv$config = {
     prefix: '/uv/',
-    bare: '/bare/',
+    bare: '/bare/', // Keeps the proxy connection local to your Docker container
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/uv/uv.handler.js',
